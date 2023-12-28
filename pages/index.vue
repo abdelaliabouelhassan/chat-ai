@@ -1,10 +1,10 @@
 <template>
-   <div class=" w-full h-screen flex items-start dark:bg-gray-800">
-            <Contact />
+   <div class=" w-full h-screen flex items-start dark:bg-gray-800 relative">
+            <Contact  />
             <div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-full">
-               <Header />
+               <Header ref="HeaderRef" />
                <Messages />
-                <Input />
+               <Input />
              </div>
         </div>
 </template>
@@ -17,6 +17,8 @@
  import Contact from '@/components/chat/Contact.vue'
  import Messages  from '@/components/chat/Messages.vue'
  import Input from '@/components/chat/Input.vue'
+
+ const HeaderRef = ref(null)
 </script>
 
 
