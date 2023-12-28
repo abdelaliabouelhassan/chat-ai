@@ -40,7 +40,7 @@
                                     <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:46</span>
                                 </div>
                                 <p class="text-sm font-normal text-gray-600 dark:text-white">This is the new office </p>
-                                <div class="group relative my-2.5">
+                                <div class="group relative my-2.5 cursor-pointer">
                                     
                                     <img src="https://flowbite.com/docs/images/blog/image-2.jpg" class="rounded-lg" />
                                 </div>
@@ -65,19 +65,19 @@
                                 </div>
                                 <p class="text-sm font-normal text-gray-600 dark:text-white">This is the new office </p>
                                 <div class="grid gap-4 grid-cols-2 my-2.5">
-                                    <div class="group relative">
+                                    <div class="group relative cursor-pointer">
                                         
                                         <img src="https://flowbite.com/docs/images/blog/image-1.jpg" class="rounded-lg" />
                                     </div>
-                                    <div class="group relative">
+                                    <div class="group relative cursor-pointer">
                                     
                                         <img src="https://flowbite.com/docs/images/blog/image-2.jpg" class="rounded-lg" />
                                     </div>
-                                    <div class="group relative">
+                                    <div class="group relative cursor-pointer">
                                     
                                         <img src="https://flowbite.com/docs/images/blog/image-3.jpg" class="rounded-lg" />
                                     </div>
-                                    <div class="group relative">
+                                    <div class="group relative cursor-pointer">
                                         
                                         <img src="https://flowbite.com/docs/images/blog/image-1.jpg" class="rounded-lg" />
                                     </div>
