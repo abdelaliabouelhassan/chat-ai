@@ -1,6 +1,6 @@
 <template>
-    <div :class="{' hidden':!openContact,'block':openContact}"  class=" absolute sm:relative  top-0 left-0 bg-white dark:bg-gray-800 sm:bg-transparent  z-50 sm:block sm:max-w-[16rem] lg:max-w-sm w-full h-full border-r dark:border-gray-500 ">
-           <div class=" w-full flex justify-end px-4">
+    <div :class="{' hidden':!openContact,'block':openContact}"  class=" absolute  sm:relative  top-0 left-0 bg-white dark:bg-gray-800 sm:bg-transparent  z-50 sm:block sm:max-w-[16rem] lg:max-w-sm w-full h-full border-r dark:border-gray-500 ">
+           <div class=" w-full flex justify-end px-4 pt-4">
             
               <button @click="openContact = !openContact" type="button" class="dark:border-gray-500 inline-flex sm:hidden items-center justify-center rounded-lg border h-10 w-10 transition duration-500 ease-in-out text-gray-500 hover:bg-gray-300 focus:outline-none">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -8,9 +8,8 @@
                         </svg>
                </button> 
            </div>
-              <div class=" w-full relative">
-               
-                <div class="  absolute top-0 h-10 sm:h-[7.1rem] border-b-2 flex flex-col justify-between border-gray-200 dark:border-gray-500 left-0 w-full bg-white dark:bg-gray-800">
+              <div class=" w-full relative py-4">
+                <div class="  absolute  space-y-4  sm:h-[7.1rem] border-b-2 flex flex-col justify-between border-gray-200 dark:border-gray-500 left-0 w-full bg-white dark:bg-gray-800">
                    <div class=" w-full px-4 pt-2">
                      <button class=" w-full  bg-blue-500 text-white flex items-center hover:scale-x-105 duration-200 rounded-md justify-center py-2">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -31,7 +30,7 @@
             
                 </div>
                 </div>
-                <div class="h-full max-h-full overflow-y-auto pb-5 pt-14 sm:pt-[7.5rem]">
+                <div class="h-full max-h-full overflow-y-auto pb-[6rem] md:pb-[4rem] pt-28 sm:pt-[7.5rem]">
 
                     <div
                         class="px-5 py-4   flex items-center   cursor-pointer border-l-4 border-l-transparent hover:bg-slate-100 dark:hover:bg-gray-700">
@@ -47,7 +46,7 @@
 
                 
 
-                    <div
+                    <div v-for=" n in 40" :key="n"
                         class="px-5 py-4   flex items-center bg-white dark:bg-gray-800 cursor-pointer border-l-4 border-l-blue-500  dark:border-y-gray-500 border-t border-b dark:hover:bg-gray-700">
                         <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500 "
                             class="h-12 w-12 border-2 border-white rounded-full" alt="">
